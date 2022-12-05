@@ -9,7 +9,7 @@ begin
     writeln('a[',i,'] = ',a[i]);
   end;
   max:=a[1];
-  min:=a[1];
+  min:=66;
   maxn:=1;
   minn:=1;
   i:=1;
