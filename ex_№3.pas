@@ -19,7 +19,7 @@ begin
         begin min:=a[i]; minn:=i; end;
       if a[i]>max then
         begin max:=a[i]; maxn:=i; end;
-      if a[i] mod 5 = 0
+      if (a[i] mod 5 = 0) and (a[i]<>0)
       then crat:=i;
       i+=1;
     end;
